@@ -145,7 +145,7 @@ python main.py
 ## 🖥️ Kako koristiti aplikaciju
 
 1. Pokrenuti program (`python main.py`)
-2. Uneti naslov ključne reči.
+2. Uneti ključnu reč.
 3. Izabrati željeni jezik (English, German, Serbian).
 4. Kliknuti na dugme **"Fetch Revision Text"** preuzima se odgovarajući sadržaj sa Wikipedije.
 5. Ako za traženi pojam postoji verzija koja je napisana ***pre početka 2021. godine***, aktivira se dugme **"Generate AI Text"**.
