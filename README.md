@@ -4,7 +4,7 @@ Repozitorijum za predmet napredno softversko inženjerstvo
 ## 📌 Opis projekta
 
 Problem koji ovaj projekat rešava je kako automatski prikupiti i obraditi tekstualni sadržaj koji bi mogao da se koristi u istraživanjima, testiranju algoritama za obradu jezika, ili za pravljenje datasetova. U oblastima poput lingvistike, NLP-a i testiranja detekcije AI sadržaja, potrebni su jasno označeni tekstualni uzorci, ali ih je teško prikupiti ručno, pa ova aplikacija omogućava efikasno generisanje i preuzimanje tekstova prema ključnoj reči.
----
+
 ## 🛠️ Tehnologije
 
 - **Python 3**
