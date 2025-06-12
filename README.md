@@ -151,4 +151,4 @@ python main.py
 5. Ako za traženi pojam postoji verzija koja je napisana ***pre početka 2021. godine***, aktivira se dugme **"Generate AI Text"**.
 6. Klikom na to dugme dobija se tekst generisan pomoću OpenAI API-ja.
 7. Rezultati se prikazuju u izlaznom prozoru.
->Napomena: Zbog mogućnosti da se projekat koristi za detekciju AI-generisanog sadržaja u tekstovima, koristi se verzija Wikipedia teksta koja je objavljena pre pojave ChatGPT-a. Kao referentna tačka uzeta je poslednja dostupna revizija iz 2020. godine. Ukoliko takva verzija ne postoji, preuzima se najbliža starija dostupna verzija, kako bi se osiguralo da tekst nije mogao biti generisan pomoću savremenih AI modela.
+>Napomena: Zbog mogućnosti da se projekat koristi za detekciju AI-generisanog sadržaja u tekstovima, koristi se verzija Wikipedia teksta koja je objavljena pre pojave ChatGPT-a. Kao referentna tačka uzeta je poslednja dostupna revizija iz 2020. godine. Ukoliko takva revizija ne postoji, preuzima se najbliža starija dostupna revizija, kako bi se osiguralo da tekst nije mogao biti generisan pomoću veštačke inteligencije.
