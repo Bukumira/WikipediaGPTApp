@@ -120,8 +120,7 @@ python3 --version
 
 ### 2. Kloniranje repozitorijuma
 ```bash
-git clone https://github.com/korisnik/naziv-repozitorijuma.git
-cd naziv-repozitorijuma
+git clone https://github.com/Bukumira/WikipediaGPTApp.git
 ```
 
 ### 3. Instalacija potrebnih biblioteka
