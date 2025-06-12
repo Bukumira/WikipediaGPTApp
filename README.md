@@ -3,7 +3,7 @@ Repozitorijum za predmet napredno softversko inženjerstvo
 
 ## 📌 Opis projekta
 
-Problem koji ovaj projekat rešava je kako automatski prikupiti i obraditi tekstualni sadržaj koji bi mogao da se koristi u istraživanjima, testiranju algoritama za obradu jezika, ili za pravljenje datasetova. U oblastima poput lingvistike, NLP-a i testiranja detekcije AI sadržaja, potrebni su jasno označeni tekstualni uzorci, ali ih je teško prikupiti ručno, pa ova aplikacija omogućava efikasno generisanje i preuzimanje tekstova za zadatu ključnu reč. Ručno traženje i kopiranje teksta sa interneta je veoma neefikasno, pa su tehnologije poput Wikipedia API i OpenAI API, zbog mogućnosti pristupa tekstovima i generisanja sadržaja, bile pogodne za implementaciju ovog rešenja.
+Problem koji ovaj projekat rešava je kako automatski prikupiti i obraditi tekstualni sadržaj koji bi mogao da se koristi u istraživanjima, testiranju algoritama za obradu jezika, ili za pravljenje datasetova. U oblastima poput lingvistike, NLP-a i detekcije AI sadržaja u tekstovima, potrebni su jasno označeni tekstualni uzorci, ali ih je teško prikupiti ručno, pa ova aplikacija omogućava efikasno generisanje i preuzimanje tekstova za zadatu ključnu reč. Ručno traženje i kopiranje teksta sa interneta je veoma neefikasno, pa su tehnologije poput Wikipedia API i OpenAI API, zbog mogućnosti pristupa tekstovima i generisanja sadržaja, bile pogodne za implementaciju ovog rešenja.
 ## 🛠️ Tehnologije
 
 - **Python 3**
@@ -148,6 +148,7 @@ python main.py
 2. Uneti naslov ključne reči.
 3. Izabrati željeni jezik (English, German, Serbian).
 4. Kliknuti na dugme **"Fetch Revision Text"** preuzima se odgovarajući sadržaj sa Wikipedije.
-5. Ako postoji verzija iz **2020. godine**, aktivira se dugme **"Generate AI Text"**.
+5. Ako za traženi pojam postoji verzija koja je napisana ***pre početka 2021. godine***, aktivira se dugme **"Generate AI Text"**.
 6. Klikom na to dugme dobija se tekst generisan pomoću OpenAI API-ja.
 7. Rezultati se prikazuju u izlaznom prozoru.
+>Napomena: Zbog mogućnosti da se projekat koristi za detekciju AI sadržaja u tekstovima, preuzimamo verziju sa Wikipedije koja je napisana pre pojave ChatGPT-a, kako bismo mogli da tvrdimo da tu verziju teksta nije generisao AI.
